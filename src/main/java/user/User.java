@@ -9,18 +9,14 @@ public class User {
     int id;
     private String name, phone_no, DOB, email;
     private String pic;
-    private Address address;
+    private String address;
+//    private Address address;
 
-    public User(String name, String phone_no, String DOB, String email, String pic, Address address) {
-        this.name = name;
-        this.phone_no = phone_no;
-        this.DOB = DOB;
-        this.email = email;
-        this.pic = pic;
-        this.address = address;
+    public User() {
+
     }
 
-    public User(int id, String name, String phone_no, String DOB, String email, String pic, Address address) {
+    public User(int id, String name, String phone_no, String DOB, String email, String pic, String address) {
         this.id = id;
         this.name = name;
         this.phone_no = phone_no;
@@ -30,8 +26,13 @@ public class User {
         this.address = address;
     }
 
-    public User() {
-
+    public User(String name, String phone_no, String DOB, String email, String pic, String address) {
+        this.name = name;
+        this.phone_no = phone_no;
+        this.DOB = DOB;
+        this.email = email;
+        this.pic = pic;
+        this.address = address;
     }
 
     public int getId() {
@@ -82,11 +83,11 @@ public class User {
         this.pic = pic;
     }
 
-    public Address getAddress() {
+    public String getAddress() {
         return address;
     }
 
-    public void setAddress(Address address) {
+    public void setAddress(String address) {
         this.address = address;
     }
 }

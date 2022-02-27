@@ -10,21 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a4f0a2-9e87-4165-a9a6-d0220c2cf971" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/def/FactoryProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/product/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/product/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/product/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/product/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +267,7 @@
       <workItem from="1645526981923" duration="667000" />
       <workItem from="1645527786911" duration="3605000" />
       <workItem from="1645550203977" duration="2014000" />
-      <workItem from="1645901599292" duration="5479000" />
+      <workItem from="1645901599292" duration="7617000" />
     </task>
     <servers />
   </component>

@@ -2,6 +2,10 @@ package product;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class Category {
@@ -9,6 +13,11 @@ public class Category {
     private int id;
     private String category;
     private String category_desc;
+    @OneToMany(mappedBy = "category")
+    private List<Product> products = new ArrayList<>();
+
+    public Category() {
+    }
 
     public Category(int id, String category, String category_desc) {
         this.id = id;
@@ -16,13 +25,12 @@ public class Category {
         this.category_desc = category_desc;
     }
 
-    public Category(String category, String category_desc) {
+    public Category(String category, String category_desc, List<Product> products) {
         this.category = category;
         this.category_desc = category_desc;
+        this.products = products;
     }
 
-    public Category() {
-    }
 
     public int getId() {
         return id;
@@ -46,5 +54,13 @@ public class Category {
 
     public void setCategory_desc(String category_desc) {
         this.category_desc = category_desc;
+    }
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<Product> products) {
+        this.products = products;
     }
 }
