@@ -7,32 +7,33 @@ import jakarta.persistence.Id;
 public class User {
     @Id
     int id;
-    private String name, phone_no, DOB, email;
-    private String pic;
-    private String address;
-//    private Address address;
+    private String name, phone_no, email;
+    //    private String DOB;
+    private String pic, address;
+    //    private Address address;
+    private String user_type;
 
     public User() {
 
     }
 
-    public User(int id, String name, String phone_no, String DOB, String email, String pic, String address) {
+    public User(int id, String name, String phone_no, String email, String pic, String address, String user_type) {
         this.id = id;
         this.name = name;
         this.phone_no = phone_no;
-        this.DOB = DOB;
         this.email = email;
         this.pic = pic;
         this.address = address;
+        this.user_type = user_type;
     }
 
-    public User(String name, String phone_no, String DOB, String email, String pic, String address) {
+    public User(String name, String phone_no, String email, String pic, String address, String user_type) {
         this.name = name;
         this.phone_no = phone_no;
-        this.DOB = DOB;
         this.email = email;
         this.pic = pic;
         this.address = address;
+        this.user_type = user_type;
     }
 
     public int getId() {
@@ -59,14 +60,6 @@ public class User {
         this.phone_no = phone_no;
     }
 
-    public String getDOB() {
-        return DOB;
-    }
-
-    public void setDOB(String DOB) {
-        this.DOB = DOB;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -89,5 +82,13 @@ public class User {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getUser_type() {
+        return user_type;
+    }
+
+    public void setUser_type(String user_type) {
+        this.user_type = user_type;
     }
 }
