@@ -7,11 +7,17 @@ import jakarta.persistence.Id;
 public class User {
     @Id
     int id;
-    private String name, phone_no, email;
-    //    private String DOB;
-    private String pic, address;
-    //    private Address address;
+    private String name;
+    private String phone_no;
+    private String email;
+    private String address;
+    private String pic;
     private String user_type;
+    //    private String DOB;
+
+
+    //    private Address address;
+
 
     public User() {
 
