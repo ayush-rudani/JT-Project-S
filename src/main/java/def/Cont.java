@@ -8,12 +8,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class Cont {
     @RequestMapping("/login")
     public String login() {
-
         return "/WEB-INF/view/login-register.jsp";
     }
 
     @ResponseBody
-    @RequestMapping("temp")
+    @RequestMapping("/temp")
     public String tmp() {
         return "hello it's me i'm temp.";
     }

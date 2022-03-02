@@ -10,21 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a4f0a2-9e87-4165-a9a6-d0220c2cf971" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/def/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/def/Cont.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/def/WebInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login-register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/header-bottom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/header-middle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/header-top.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/def/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/def/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/def/Cont.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/def/Cont.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/def/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/def/WebInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login-register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login-register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/def/Cont.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/def/Cont.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/def/WebInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/def/WebInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/login-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/login-register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +83,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\eclipse-workspace\JT-Project-S\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\DELL\eclipse-workspace\JT-Project-S\src\main\webapp\META-INF" />
       <recent name="C:\Users\DELL\eclipse-workspace\JT-Project-S\src\main\java\default" />
     </key>
   </component>
@@ -215,7 +210,7 @@
       <workItem from="1645527786911" duration="3605000" />
       <workItem from="1645550203977" duration="2014000" />
       <workItem from="1645901599292" duration="15079000" />
-      <workItem from="1646130641932" duration="10442000" />
+      <workItem from="1646130641932" duration="14873000" />
     </task>
     <servers />
   </component>

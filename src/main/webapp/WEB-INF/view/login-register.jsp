@@ -54,7 +54,7 @@
 <div class="body-wrapper">
 
     <!-- Begin Header Area -->
-    <%@include file="login-register.jsp" %>
+    <%--    <%@include file="" %>--%>
     <!-- Header Area End Here -->
 
 
