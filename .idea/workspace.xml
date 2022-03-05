@@ -11,36 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a4f0a2-9e87-4165-a9a6-d0220c2cf971" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.ltk.core.refactoring.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.ws.service.policy.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/classes/def/FactoryProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/classes/def/FactoryProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/classes/user/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/classes/user/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/classes/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-core-jakarta-5.6.4.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.servlet-api-5.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp-api-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JT-Project-S-0.0.1-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/def/FactoryProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/def/FactoryProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/product/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/product/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/product/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/RegisterUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/RegisterUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/link.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/link.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
