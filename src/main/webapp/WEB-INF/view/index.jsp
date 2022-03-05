@@ -38,7 +38,7 @@
         <!-- Bootstrap V4.1.3 Fremwork CSS -->
         <link rel="stylesheet" href="<c:url value="/static/css/bootstrap.min.css" />">
         <!-- Helper CSS -->
-        <link rel="stylesheet" href="<c:url value="/static/css/helper.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/helper.css" />">
         <!-- Main Style CSS -->
         <link rel="stylesheet" href="style.css">
         <!-- Responsive CSS -->
