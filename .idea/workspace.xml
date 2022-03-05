@@ -10,14 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a4f0a2-9e87-4165-a9a6-d0220c2cf971" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/def/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/def/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/def/Cont.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/def/Cont.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/def/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/def/WebInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login-register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login-register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/def/Cont.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/def/Cont.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/def/WebInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/def/WebInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/def/DefConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/def/DefConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/def/DefController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/def/DefController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/def/FactoryProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/def/FactoryProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/def/WebInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/def/WebInit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/product/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/product/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/product/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/RegisterUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/RegisterUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JT-Project-S/JT-Project-S/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
