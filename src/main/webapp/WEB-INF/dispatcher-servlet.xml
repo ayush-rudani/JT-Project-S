@@ -13,11 +13,12 @@
 	<!-- Step 2: Add support for component scanning -->
 	<context:component-scan
 		base-package="controllers" />
+	
+	<!-- <mvc:resources mapping="/static/**" location="/static/"  
+	cache-period="31556926"/>  -->
 
 	<!-- Step 3: Add support for conversion, formatting and validation support -->
 	<mvc:annotation-driven />
-
-	<mvc:resources mapping="/static/**" location="/static/" />
 
 	<!-- Step 4: Define Spring MVC view resolver -->
 	<bean id="viewResolver"
