@@ -1,9 +1,9 @@
 package user;
 
 import def.FactoryProvider;
-import jakarta.servlet.*;
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.*;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
@@ -13,6 +13,7 @@ import java.io.IOException;
 public class RegisterUser extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
     }
 
     @Override

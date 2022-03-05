@@ -1,3 +1,6 @@
+ <%@page contentType="text/html" pageEncoding="UTF-8"%>
+ <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+ 
 <!doctype html>
 <html class="no-js" lang="zxx">
     
@@ -9,39 +12,39 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="<c:url value="/static/images/favicon.png" />">
         <!-- Material Design Iconic Font-V2.2.0 -->
-        <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/material-design-iconic-font.min.css" />">
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/font-awesome.min.css" />">
         <!-- Font Awesome Stars-->
-        <link rel="stylesheet" href="css/fontawesome-stars.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/fontawesome-stars.css" />">
         <!-- Meanmenu CSS -->
-        <link rel="stylesheet" href="css/meanmenu.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/meanmenu.css" />">
         <!-- owl carousel CSS -->
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/owl.carousel.min.css" />">
         <!-- Slick Carousel CSS -->
-        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/slick.css" />">
         <!-- Animate CSS -->
-        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/animate.css" />">
         <!-- Jquery-ui CSS -->
-        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/jquery-ui.min.css" />">
         <!-- Venobox CSS -->
-        <link rel="stylesheet" href="css/venobox.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/venobox.css" />">
         <!-- Nice Select CSS -->
-        <link rel="stylesheet" href="css/nice-select.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/nice-select.css" />">
         <!-- Magnific Popup CSS -->
-        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/magnific-popup.css" />">
         <!-- Bootstrap V4.1.3 Fremwork CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/bootstrap.min.css" />">
         <!-- Helper CSS -->
-        <link rel="stylesheet" href="css/helper.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/helper.css">
         <!-- Main Style CSS -->
         <link rel="stylesheet" href="style.css">
         <!-- Responsive CSS -->
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="<c:url value="/static/css/responsive.css">
         <!-- Modernizr js -->
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="<c:url value="/static/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
     <!--[if lt IE 8]>
@@ -86,7 +89,7 @@
                                             <div class="ht-currency-trigger"><span>USD $</span></div>
                                             <div class="currency ht-currency">
                                                 <ul class="ht-setting-list">
-                                                    <li><a href="#">EUR €</a></li>
+                                                    <li><a href="#">EUR â¬</a></li>
                                                     <li class="active"><a href="#">USD $</a></li>
                                                 </ul>
                                             </div>
@@ -98,8 +101,8 @@
                                             <div class="ht-language-trigger"><span>English</span></div>
                                             <div class="language ht-language">
                                                 <ul class="ht-setting-list">
-                                                    <li class="active"><a href="#"><img src="images/menu/flag-icon/1.jpg" alt="">English</a></li>
-                                                    <li><a href="#"><img src="images/menu/flag-icon/2.jpg" alt="">Français</a></li>
+                                                    <li class="active"><a href="#"><img src="<c:url value="/static/images/menu/flag-icon/1.jpg" alt="">English</a></li>
+                                                    <li><a href="#"><img src="<c:url value="/static/images/menu/flag-icon/2.jpg" alt="">FranÃ§ais</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -120,7 +123,7 @@
                             <div class="col-lg-3">
                                 <div class="logo pb-sm-30 pb-xs-30">
                                     <a href="index.html">
-                                        <img src="images/menu/logo/1.jpg" alt="">
+                                        <img src="<c:url value="/static/images/menu/logo/1.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -220,7 +223,7 @@
                                         <li class="hm-minicart">
                                             <div class="hm-minicart-trigger">
                                                 <span class="item-icon"></span>
-                                                <span class="item-text">£80.00
+                                                <span class="item-text">Â£80.00
                                                     <span class="cart-item-count">2</span>
                                                 </span>
                                             </div>
@@ -229,11 +232,11 @@
                                                 <ul class="minicart-product-list">
                                                     <li>
                                                         <a href="single-product.html" class="minicart-product-image">
-                                                            <img src="images/product/small-size/5.jpg" alt="cart products">
+                                                            <img src="<c:url value="/static/images/product/small-size/5.jpg" alt="cart products">
                                                         </a>
                                                         <div class="minicart-product-details">
                                                             <h6><a href="single-product.html">Aenean eu tristique</a></h6>
-                                                            <span>£40 x 1</span>
+                                                            <span>Â£40 x 1</span>
                                                         </div>
                                                         <button class="close" title="Remove">
                                                             <i class="fa fa-close"></i>
@@ -241,18 +244,18 @@
                                                     </li>
                                                     <li>
                                                         <a href="single-product.html" class="minicart-product-image">
-                                                            <img src="images/product/small-size/6.jpg" alt="cart products">
+                                                            <img src="<c:url value="/static/images/product/small-size/6.jpg" alt="cart products">
                                                         </a>
                                                         <div class="minicart-product-details">
                                                             <h6><a href="single-product.html">Aenean eu tristique</a></h6>
-                                                            <span>£40 x 1</span>
+                                                            <span>Â£40 x 1</span>
                                                         </div>
                                                         <button class="close" title="Remove">
                                                             <i class="fa fa-close"></i>
                                                         </button>
                                                     </li>
                                                 </ul>
-                                                <p class="minicart-total">SUBTOTAL: <span>£80.00</span></p>
+                                                <p class="minicart-total">SUBTOTAL: <span>Â£80.00</span></p>
                                                 <div class="minicart-button">
                                                     <a href="shopping-cart.html" class="li-button li-button-fullwidth li-button-dark">
                                                         <span>View Full Cart</span>
@@ -356,7 +359,7 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="megamenu-static-holder"><a href="index.html">Pages</a>
+                                            <li class="megamenu-<c:url value="/static-holder"><a href="index.html">Pages</a>
                                                 <ul class="megamenu hb-megamenu">
                                                     <li><a href="blog-left-sidebar.html">Blog Layouts</a>
                                                         <ul>
@@ -477,12 +480,12 @@
                         <div class="col-lg-4 col-md-4 text-center pt-xs-30">
                             <div class="li-banner">
                                 <a href="#">
-                                    <img src="images/banner/1_1.jpg" alt="">
+                                    <img src="<c:url value="/static/images/banner/1_1.jpg" alt="">
                                 </a>
                             </div>
                             <div class="li-banner mt-15 mt-sm-30 mt-xs-30">
                                 <a href="#">
-                                    <img src="images/banner/1_2.jpg" alt="">
+                                    <img src="<c:url value="/static/images/banner/1_2.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -515,7 +518,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/1.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/1.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -556,7 +559,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/2.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/2.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -599,7 +602,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/3.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/3.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -640,7 +643,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/4.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/4.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -683,7 +686,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/5.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/5.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -724,7 +727,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/6.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/6.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -773,7 +776,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/12.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/12.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -814,7 +817,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/11.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/11.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -857,7 +860,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/10.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/10.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -898,7 +901,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/9.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/9.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -941,7 +944,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/8.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/8.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -982,7 +985,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/7.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/7.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1031,7 +1034,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/3.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/3.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1072,7 +1075,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/5.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/5.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1115,7 +1118,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/7.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/7.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1156,7 +1159,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/9.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/9.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1199,7 +1202,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/11.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/11.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1240,7 +1243,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/12.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/12.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1285,15 +1288,15 @@
                 </div>
             </div>
             <!-- Product Area End Here -->
-            <!-- Begin Li's Static Banner Area -->
-            <div class="li-static-banner">
+            <!-- Begin Li's <c:url value="/static Banner Area -->
+            <div class="li-<c:url value="/static-banner">
                 <div class="container">
                     <div class="row">
                         <!-- Begin Single Banner Area -->
                         <div class="col-lg-4 col-md-4 text-center">
                             <div class="single-banner">
                                 <a href="#">
-                                    <img src="images/banner/1_3.jpg" alt="Li's Static Banner">
+                                    <img src="<c:url value="/static/images/banner/1_3.jpg" alt="Li's <c:url value="/static Banner">
                                 </a>
                             </div>
                         </div>
@@ -1302,7 +1305,7 @@
                         <div class="col-lg-4 col-md-4 text-center pt-xs-30">
                             <div class="single-banner">
                                 <a href="#">
-                                    <img src="images/banner/1_4.jpg" alt="Li's Static Banner">
+                                    <img src="<c:url value="/static/images/banner/1_4.jpg" alt="Li's <c:url value="/static Banner">
                                 </a>
                             </div>
                         </div>
@@ -1311,7 +1314,7 @@
                         <div class="col-lg-4 col-md-4 text-center pt-xs-30">
                             <div class="single-banner">
                                 <a href="#">
-                                    <img src="images/banner/1_5.jpg" alt="Li's Static Banner">
+                                    <img src="<c:url value="/static/images/banner/1_5.jpg" alt="Li's <c:url value="/static Banner">
                                 </a>
                             </div>
                         </div>
@@ -1319,7 +1322,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Li's Static Banner Area End Here -->
+            <!-- Li's <c:url value="/static Banner Area End Here -->
             <!-- Begin Li's Laptop Product Area -->
             <section class="product-area li-laptop-product pt-60 pb-45">
                 <div class="container">
@@ -1343,7 +1346,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/1.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/1.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1384,7 +1387,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/2.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/2.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1427,7 +1430,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/3.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/3.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1468,7 +1471,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/4.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/4.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1511,7 +1514,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/5.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/5.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1552,7 +1555,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/6.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/6.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1621,7 +1624,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/3.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/3.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1662,7 +1665,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/5.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/5.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1705,7 +1708,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/7.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/7.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1746,7 +1749,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/9.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/9.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1789,7 +1792,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/11.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/11.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1830,7 +1833,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/11.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/11.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1876,16 +1879,16 @@
                 </div>
             </section>
             <!-- Li's TV & Audio Product Area End Here -->
-            <!-- Begin Li's Static Home Area -->
-            <div class="li-static-home">
+            <!-- Begin Li's <c:url value="/static Home Area -->
+            <div class="li-<c:url value="/static-home">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <!-- Begin Li's Static Home Image Area -->
-                            <div class="li-static-home-image"></div>
-                            <!-- Li's Static Home Image Area End Here -->
-                            <!-- Begin Li's Static Home Content Area -->
-                            <div class="li-static-home-content">
+                            <!-- Begin Li's <c:url value="/static Home Image Area -->
+                            <div class="li-<c:url value="/static-home-image"></div>
+                            <!-- Li's <c:url value="/static Home Image Area End Here -->
+                            <!-- Begin Li's <c:url value="/static Home Content Area -->
+                            <div class="li-<c:url value="/static-home-content">
                                 <p>Sale Offer<span>-20% Off</span>This Week</p>
                                 <h2>Featured Product</h2>
                                 <h2>Meito Accessories 2018</h2>
@@ -1897,12 +1900,12 @@
                                     <a href="shop-left-sidebar.html" class="links">Shopping Now</a>
                                 </div>
                             </div>
-                            <!-- Li's Static Home Content Area End Here -->
+                            <!-- Li's <c:url value="/static Home Content Area End Here -->
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Li's Static Home Area End Here -->
+            <!-- Li's <c:url value="/static Home Area End Here -->
             <!-- Begin Li's Trending Product Area -->
             <section class="product-area li-trending-product pt-60 pb-45">
                 <div class="container">
@@ -1929,7 +1932,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/2.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/2.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -1970,7 +1973,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/4.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/4.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2013,7 +2016,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/6.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/6.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2054,7 +2057,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/8.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/8.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2097,7 +2100,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/10.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/10.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2138,7 +2141,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/12.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/12.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2187,7 +2190,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/11.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/11.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2228,7 +2231,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/7.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/7.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2271,7 +2274,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/9.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/9.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2312,7 +2315,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/5.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/5.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2355,7 +2358,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/7.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/7.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2396,7 +2399,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/5.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/5.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2445,7 +2448,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/3.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/3.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2486,7 +2489,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/7.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/7.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2529,7 +2532,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/9.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/9.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2570,7 +2573,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/1.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/1.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2613,7 +2616,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/11.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/11.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2654,7 +2657,7 @@
                                                 <div class="single-product-wrap">
                                                     <div class="product-image">
                                                         <a href="single-product.html">
-                                                            <img src="images/product/large-size/9.jpg" alt="Li's Product Image">
+                                                            <img src="<c:url value="/static/images/product/large-size/9.jpg" alt="Li's Product Image">
                                                         </a>
                                                         <span class="sticker">New</span>
                                                     </div>
@@ -2721,7 +2724,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/11.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/11.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -2762,7 +2765,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/7.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/7.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -2805,7 +2808,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/9.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/9.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -2846,7 +2849,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/5.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/5.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -2889,7 +2892,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/7.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/7.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -2930,7 +2933,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/5.jpg" alt="Li's Product Image">
+                                                    <img src="<c:url value="/static/images/product/large-size/5.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -2978,8 +2981,8 @@
             <!-- Li's Trendding Products Area End Here -->
             <!-- Begin Footer Area -->
             <div class="footer">
-                <!-- Begin Footer Static Top Area -->
-                <div class="footer-static-top">
+                <!-- Begin Footer <c:url value="/static Top Area -->
+                <div class="footer-<c:url value="/static-top">
                     <div class="container">
                         <!-- Begin Footer Shipping Area -->
                         <div class="footer-shipping pt-60 pb-55 pb-xs-25">
@@ -2988,7 +2991,7 @@
                                 <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
                                     <div class="li-shipping-inner-box">
                                         <div class="shipping-icon">
-                                            <img src="images/shipping-icon/1.png" alt="Shipping Icon">
+                                            <img src="<c:url value="/static/images/shipping-icon/1.png" alt="Shipping Icon">
                                         </div>
                                         <div class="shipping-text">
                                             <h2>Free Delivery</h2>
@@ -3001,7 +3004,7 @@
                                 <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
                                     <div class="li-shipping-inner-box">
                                         <div class="shipping-icon">
-                                            <img src="images/shipping-icon/2.png" alt="Shipping Icon">
+                                            <img src="<c:url value="/static/images/shipping-icon/2.png" alt="Shipping Icon">
                                         </div>
                                         <div class="shipping-text">
                                             <h2>Safe Payment</h2>
@@ -3014,7 +3017,7 @@
                                 <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
                                     <div class="li-shipping-inner-box">
                                         <div class="shipping-icon">
-                                            <img src="images/shipping-icon/3.png" alt="Shipping Icon">
+                                            <img src="<c:url value="/static/images/shipping-icon/3.png" alt="Shipping Icon">
                                         </div>
                                         <div class="shipping-text">
                                             <h2>Shop with Confidence</h2>
@@ -3027,7 +3030,7 @@
                                 <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
                                     <div class="li-shipping-inner-box">
                                         <div class="shipping-icon">
-                                            <img src="images/shipping-icon/4.png" alt="Shipping Icon">
+                                            <img src="<c:url value="/static/images/shipping-icon/4.png" alt="Shipping Icon">
                                         </div>
                                         <div class="shipping-text">
                                             <h2>24/7 Help Center</h2>
@@ -3041,16 +3044,16 @@
                         <!-- Footer Shipping Area End Here -->
                     </div>
                 </div>
-                <!-- Footer Static Top Area End Here -->
-                <!-- Begin Footer Static Middle Area -->
-                <div class="footer-static-middle">
+                <!-- Footer <c:url value="/static Top Area End Here -->
+                <!-- Begin Footer <c:url value="/static Middle Area -->
+                <div class="footer-<c:url value="/static-middle">
                     <div class="container">
                         <div class="footer-logo-wrap pt-50 pb-35">
                             <div class="row">
                                 <!-- Begin Footer Logo Area -->
                                 <div class="col-lg-4 col-md-6">
                                     <div class="footer-logo">
-                                        <img src="images/menu/logo/1.jpg" alt="Footer Logo">
+                                        <img src="<c:url value="/static/images/menu/logo/1.jpg" alt="Footer Logo">
                                         <p class="info">
                                             We are a team of designers and developers that create high quality HTML Template & Woocommerce, Shopify Theme.
                                         </p>
@@ -3153,9 +3156,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- Footer Static Middle Area End Here -->
-                <!-- Begin Footer Static Bottom Area -->
-                <div class="footer-static-bottom pt-55 pb-55">
+                <!-- Footer <c:url value="/static Middle Area End Here -->
+                <!-- Begin Footer <c:url value="/static Bottom Area -->
+                <div class="footer-<c:url value="/static-bottom pt-55 pb-55">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -3187,7 +3190,7 @@
                                 <!-- Begin Footer Payment Area -->
                                 <div class="copyright text-center">
                                     <a href="#">
-                                        <img src="images/payment/1.png" alt="">
+                                        <img src="<c:url value="/static/images/payment/1.png" alt="">
                                     </a>
                                 </div>
                                 <!-- Footer Payment Area End Here -->
@@ -3200,7 +3203,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Footer Static Bottom Area End Here -->
+                <!-- Footer <c:url value="/static Bottom Area End Here -->
             </div>
             <!-- Footer Area End Here -->
             <!-- Begin Quick View | Modal Area -->
@@ -3217,31 +3220,31 @@
                                     <div class="product-details-left">
                                         <div class="product-details-images slider-navigation-1">
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/1.jpg" alt="product image">
+                                                <img src="<c:url value="/static/images/product/large-size/1.jpg" alt="product image">
                                             </div>
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/2.jpg" alt="product image">
+                                                <img src="<c:url value="/static/images/product/large-size/2.jpg" alt="product image">
                                             </div>
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/3.jpg" alt="product image">
+                                                <img src="<c:url value="/static/images/product/large-size/3.jpg" alt="product image">
                                             </div>
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/4.jpg" alt="product image">
+                                                <img src="<c:url value="/static/images/product/large-size/4.jpg" alt="product image">
                                             </div>
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/5.jpg" alt="product image">
+                                                <img src="<c:url value="/static/images/product/large-size/5.jpg" alt="product image">
                                             </div>
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/6.jpg" alt="product image">
+                                                <img src="<c:url value="/static/images/product/large-size/6.jpg" alt="product image">
                                             </div>
                                         </div>
                                         <div class="product-details-thumbs slider-thumbs-1">                                        
-                                            <div class="sm-image"><img src="images/product/small-size/1.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="images/product/small-size/2.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="images/product/small-size/3.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="images/product/small-size/4.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="images/product/small-size/5.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="images/product/small-size/6.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="<c:url value="/static/images/product/small-size/1.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="<c:url value="/static/images/product/small-size/2.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="<c:url value="/static/images/product/small-size/3.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="<c:url value="/static/images/product/small-size/4.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="<c:url value="/static/images/product/small-size/5.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="<c:url value="/static/images/product/small-size/6.jpg" alt="product image thumb"></div>
                                         </div>
                                     </div>
                                     <!--// Product Details Left -->
@@ -3318,47 +3321,47 @@
         </div>
         <!-- Body Wrapper End Here -->
         <!-- jQuery-V1.12.4 -->
-        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="<c:url value="/static/js/vendor/jquery-1.12.4.min.js"></script>
         <!-- Popper js -->
-        <script src="js/vendor/popper.min.js"></script>
+        <script src="<c:url value="/static/js/vendor/popper.min.js"></script>
         <!-- Bootstrap V4.1.3 Fremwork js -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="<c:url value="/static/js/bootstrap.min.js"></script>
         <!-- Ajax Mail js -->
-        <script src="js/ajax-mail.js"></script>
+        <script src="<c:url value="/static/js/ajax-mail.js"></script>
         <!-- Meanmenu js -->
-        <script src="js/jquery.meanmenu.min.js"></script>
+        <script src="<c:url value="/static/js/jquery.meanmenu.min.js"></script>
         <!-- Wow.min js -->
-        <script src="js/wow.min.js"></script>
+        <script src="<c:url value="/static/js/wow.min.js"></script>
         <!-- Slick Carousel js -->
-        <script src="js/slick.min.js"></script>
+        <script src="<c:url value="/static/js/slick.min.js"></script>
         <!-- Owl Carousel-2 js -->
-        <script src="js/owl.carousel.min.js"></script>
+        <script src="<c:url value="/static/js/owl.carousel.min.js"></script>
         <!-- Magnific popup js -->
-        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="<c:url value="/static/js/jquery.magnific-popup.min.js"></script>
         <!-- Isotope js -->
-        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="<c:url value="/static/js/isotope.pkgd.min.js"></script>
         <!-- Imagesloaded js -->
-        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="<c:url value="/static/js/imagesloaded.pkgd.min.js"></script>
         <!-- Mixitup js -->
-        <script src="js/jquery.mixitup.min.js"></script>
+        <script src="<c:url value="/static/js/jquery.mixitup.min.js"></script>
         <!-- Countdown -->
-        <script src="js/jquery.countdown.min.js"></script>
+        <script src="<c:url value="/static/js/jquery.countdown.min.js"></script>
         <!-- Counterup -->
-        <script src="js/jquery.counterup.min.js"></script>
+        <script src="<c:url value="/static/js/jquery.counterup.min.js"></script>
         <!-- Waypoints -->
-        <script src="js/waypoints.min.js"></script>
+        <script src="<c:url value="/static/js/waypoints.min.js"></script>
         <!-- Barrating -->
-        <script src="js/jquery.barrating.min.js"></script>
+        <script src="<c:url value="/static/js/jquery.barrating.min.js"></script>
         <!-- Jquery-ui -->
-        <script src="js/jquery-ui.min.js"></script>
+        <script src="<c:url value="/static/js/jquery-ui.min.js"></script>
         <!-- Venobox -->
-        <script src="js/venobox.min.js"></script>
+        <script src="<c:url value="/static/js/venobox.min.js"></script>
         <!-- Nice Select js -->
-        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="<c:url value="/static/js/jquery.nice-select.min.js"></script>
         <!-- ScrollUp js -->
-        <script src="js/scrollUp.min.js"></script>
+        <script src="<c:url value="/static/js/scrollUp.min.js"></script>
         <!-- Main/Activator js -->
-        <script src="js/main.js"></script>
+        <script src="<c:url value="/static/js/main.js"></script>
     </body>
 
 <!-- index30:23-->

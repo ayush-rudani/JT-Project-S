@@ -14,7 +14,10 @@ public class User {
     private String pic;
     private String user_type;
     //    private String DOB;
+
+
     //    private Address address;
+
 
     public User() {
 
