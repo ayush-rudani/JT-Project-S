@@ -10,5 +10,5 @@
 	<%
 	out.println(FactoryProvider.getFactory());
 	%>
-</body>
+</body> 
 </html>
