@@ -14,8 +14,8 @@
 	<context:component-scan
 		base-package="controllers" />
 	
-	 <mvc:resources mapping="/static/**" location="/static/"  
-	cache-period="31556926"/>  
+	<!-- <mvc:resources mapping="/static/**" location="/static/"  
+	cache-period="31556926"/>  -->
 
 	<!-- Step 3: Add support for conversion, formatting and validation support -->
 	<mvc:annotation-driven />
