@@ -18,5 +18,23 @@ public class HomeController {
     public String showPage() {
     	return "index";	
     }
-
 }
+
+@Controller 
+class Checkout {
+	@RequestMapping("/checkout")
+	public String showPage() {
+		return "checkout";
+	}
+}
+
+@Controller 
+class SingleProduct {
+	@RequestMapping("/single-product")
+	public String showPage() {
+		return "single-product";
+	}
+}
+
+
+

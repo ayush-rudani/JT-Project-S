@@ -4,64 +4,24 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<!-- index28:48-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Home Version One || limupa - Digital Products Store eCommerce Bootstrap 4 Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Favicon -->
-      <link rel="shortcut icon" type="image/x-icon" href="/JT-Project-S/static/images/favicon.png">
-      <!-- Material Design Iconic Font-V2.2.0 -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/material-design-iconic-font.min.css">
-      <!-- Font Awesome -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/font-awesome.min.css">
-      <!-- Font Awesome Stars-->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/fontawesome-stars.css">
-      <!-- Meanmenu CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/meanmenu.css">
-      <!-- owl carousel CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/owl.carousel.min.css">
-      <!-- Slick Carousel CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/slick.css">
-      <!-- Animate CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/animate.css">
-      <!-- Jquery-ui CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/jquery-ui.min.css">
-      <!-- Venobox CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/venobox.css">
-      <!-- Nice Select CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/nice-select.css">
-      <!-- Magnific Popup CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/magnific-popup.css">
-      <!-- Bootstrap V4.1.3 Fremwork CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/bootstrap.min.css">
-      <!-- Helper CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/helper.css">
-      <!-- Main Style CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/style.css">
-      <!-- Responsive CSS -->
-      <link rel="stylesheet" href="/JT-Project-S/static/css/responsive.css">
-      <!-- Modernizr js -->
-      <script src="/JT-Project-S/static/js/vendor/modernizr-2.8.3.min.js"></script>
-<%-- <%@include file="link.html" %> --%>
+    <%@include file="link.html" %> 
 
 </head>
 <body>
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
-    your browser</a> to improve your experience.</p>
-<![endif]-->
-<!-- Begin Body Wrapper -->
+
 <div class="body-wrapper">
-    <!-- Begin Header Area -->
+    
     <header>
-        <!-- Begin Header Top Area -->
+       
         <div class="header-top">
             <div class="container">
                 <div class="row">
-                    <!-- Begin Header Top Left Area -->
                     <div class="col-lg-3 col-md-4">
                         <div class="header-top-left">
                             <ul class="phone-wrap">
@@ -69,24 +29,22 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- Header Top Left Area End Here -->
-                    <!-- Begin Header Top Right Area -->
+
                     <div class="col-lg-9 col-md-8">
                         <div class="header-top-right">
                             <ul class="ht-menu">
-                                <!-- Begin Setting Area -->
+                               
                                 <li>
                                     <div class="ht-setting-trigger"><span>Setting</span></div>
                                     <div class="setting ht-setting">
                                         <ul class="ht-setting-list">
                                             <li><a href="login-register.html">My Account</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="checkout">Checkout</a></li>
                                             <li><a href="login-register.html">Sign In</a></li>
                                         </ul>
                                     </div>
                                 </li>
-                                <!-- Setting Area End Here -->
-                                <!-- Begin Currency Area -->
+                                
                                 <li>
                                     <span class="currency-selector-wrapper">Currency :</span>
                                     <div class="ht-currency-trigger"><span>USD $</span></div>
@@ -97,8 +55,7 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <!-- Currency Area End Here -->
-                                <!-- Begin Language Area -->
+                               
                                 <li>
                                     <span class="language-selector-wrapper">Language :</span>
                                     <div class="ht-language-trigger"><span>English</span></div>
@@ -237,12 +194,12 @@
                                     <div class="minicart">
                                         <ul class="minicart-product-list">
                                             <li>
-                                                <a href="single-product.html" class="minicart-product-image">
+                                                <a href="single-product" class="minicart-product-image">
                                                     <img src="/JT-Project-S/static/images/product/small-size/5.jpg"
                                                          alt="cart products">
                                                 </a>
                                                 <div class="minicart-product-details">
-                                                    <h6><a href="single-product.html">Aenean eu tristique</a></h6>
+                                                    <h6><a href="single-product">Aenean eu tristique</a></h6>
                                                     <span>Â£40 x 1</span>
                                                 </div>
                                                 <button class="close" title="Remove">
@@ -250,12 +207,12 @@
                                                 </button>
                                             </li>
                                             <li>
-                                                <a href="single-product.html" class="minicart-product-image">
+                                                <a href="single-product" class="minicart-product-image">
                                                     <img src="/JT-Project-S/static/images/product/small-size/6.jpg"
                                                          alt="cart products">
                                                 </a>
                                                 <div class="minicart-product-details">
-                                                    <h6><a href="single-product.html">Aenean eu tristique</a></h6>
+                                                    <h6><a href="single-product">Aenean eu tristique</a></h6>
                                                     <span>Â£40 x 1</span>
                                                 </div>
                                                 <button class="close" title="Remove">
@@ -333,9 +290,9 @@
                                                         Style Right</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="single-product.html">Single Products</a>
+                                            <li><a href="single-product">Single Products</a>
                                                 <ul>
-                                                    <li><a href="single-product.html">Single Product</a></li>
+                                                    <li><a href="single-product">Single Product</a></li>
                                                     <li><a href="single-product-sale.html">Single Product Sale</a></li>
                                                     <li><a href="single-product-group.html">Single Product Group</a>
                                                     </li>
@@ -544,7 +501,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/1.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -566,7 +523,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -590,7 +547,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/2.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -612,7 +569,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -638,7 +595,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/3.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -660,7 +617,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -684,7 +641,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/4.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -706,7 +663,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -732,7 +689,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/5.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -754,7 +711,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -778,7 +735,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/6.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -800,7 +757,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -832,7 +789,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/12.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -854,7 +811,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -878,7 +835,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/11.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -900,7 +857,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -926,7 +883,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/10.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -948,7 +905,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -972,7 +929,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/9.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -994,7 +951,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -1020,7 +977,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/8.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1042,7 +999,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -1066,7 +1023,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/7.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1088,7 +1045,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -1120,7 +1077,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/3.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1142,7 +1099,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -1166,7 +1123,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/5.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1188,7 +1145,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -1214,7 +1171,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/7.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1236,7 +1193,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -1260,7 +1217,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/9.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1282,7 +1239,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -1308,7 +1265,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/11.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1330,7 +1287,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -1354,7 +1311,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/12.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1376,7 +1333,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -1465,7 +1422,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/1.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1487,7 +1444,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -1511,7 +1468,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/2.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1533,7 +1490,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -1559,7 +1516,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/3.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1581,7 +1538,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -1605,7 +1562,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/4.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1627,7 +1584,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -1653,7 +1610,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/5.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1675,7 +1632,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -1699,7 +1656,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/6.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1721,7 +1678,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -1773,7 +1730,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/3.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1795,7 +1752,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -1819,7 +1776,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/5.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1841,7 +1798,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -1867,7 +1824,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/7.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1889,7 +1846,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -1913,7 +1870,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/9.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1935,7 +1892,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -1961,7 +1918,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/11.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -1983,7 +1940,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -2007,7 +1964,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/11.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -2029,7 +1986,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -2111,7 +2068,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/2.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2133,7 +2090,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium
+                                                    <h4><a class="product_name" href="single-product">Accusantium
                                                         dolorem1</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price">$46.80</span>
@@ -2157,7 +2114,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/4.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2179,7 +2136,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is
+                                                    <h4><a class="product_name" href="single-product">Mug Today is
                                                         a good day</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price new-price-2">$71.80</span>
@@ -2205,7 +2162,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/6.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2227,7 +2184,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium
+                                                    <h4><a class="product_name" href="single-product">Accusantium
                                                         dolorem1</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price">$46.80</span>
@@ -2251,7 +2208,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/8.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2273,7 +2230,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is
+                                                    <h4><a class="product_name" href="single-product">Mug Today is
                                                         a good day</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price new-price-2">$71.80</span>
@@ -2299,7 +2256,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/10.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2321,7 +2278,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium
+                                                    <h4><a class="product_name" href="single-product">Accusantium
                                                         dolorem1</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price">$46.80</span>
@@ -2345,7 +2302,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/12.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2367,7 +2324,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is
+                                                    <h4><a class="product_name" href="single-product">Mug Today is
                                                         a good day</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price new-price-2">$71.80</span>
@@ -2399,7 +2356,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/11.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2421,7 +2378,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium
+                                                    <h4><a class="product_name" href="single-product">Accusantium
                                                         dolorem1</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price">$46.80</span>
@@ -2445,7 +2402,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/7.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2467,7 +2424,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is
+                                                    <h4><a class="product_name" href="single-product">Mug Today is
                                                         a good day</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price new-price-2">$71.80</span>
@@ -2493,7 +2450,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/9.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2515,7 +2472,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium
+                                                    <h4><a class="product_name" href="single-product">Accusantium
                                                         dolorem1</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price">$46.80</span>
@@ -2539,7 +2496,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/5.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2561,7 +2518,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is
+                                                    <h4><a class="product_name" href="single-product">Mug Today is
                                                         a good day</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price new-price-2">$71.80</span>
@@ -2587,7 +2544,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/7.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2609,7 +2566,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium
+                                                    <h4><a class="product_name" href="single-product">Accusantium
                                                         dolorem1</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price">$46.80</span>
@@ -2633,7 +2590,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/5.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2655,7 +2612,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is
+                                                    <h4><a class="product_name" href="single-product">Mug Today is
                                                         a good day</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price new-price-2">$71.80</span>
@@ -2687,7 +2644,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/3.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2709,7 +2666,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium
+                                                    <h4><a class="product_name" href="single-product">Accusantium
                                                         dolorem1</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price">$46.80</span>
@@ -2733,7 +2690,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/7.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2755,7 +2712,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is
+                                                    <h4><a class="product_name" href="single-product">Mug Today is
                                                         a good day</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price new-price-2">$71.80</span>
@@ -2781,7 +2738,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/9.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2803,7 +2760,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium
+                                                    <h4><a class="product_name" href="single-product">Accusantium
                                                         dolorem1</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price">$46.80</span>
@@ -2827,7 +2784,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/1.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2849,7 +2806,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is
+                                                    <h4><a class="product_name" href="single-product">Mug Today is
                                                         a good day</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price new-price-2">$71.80</span>
@@ -2875,7 +2832,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/11.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2897,7 +2854,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium
+                                                    <h4><a class="product_name" href="single-product">Accusantium
                                                         dolorem1</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price">$46.80</span>
@@ -2921,7 +2878,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="/JT-Project-S/static/images/product/large-size/9.jpg"
                                                          alt="Li's Product Image">
                                                 </a>
@@ -2943,7 +2900,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is
+                                                    <h4><a class="product_name" href="single-product">Mug Today is
                                                         a good day</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price new-price-2">$71.80</span>
@@ -2993,7 +2950,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/11.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -3015,7 +2972,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -3039,7 +2996,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/7.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -3061,7 +3018,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -3087,7 +3044,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/9.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -3109,7 +3066,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -3133,7 +3090,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/5.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -3155,7 +3112,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
@@ -3181,7 +3138,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/7.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -3203,7 +3160,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Accusantium
+                                            <h4><a class="product_name" href="single-product">Accusantium
                                                 dolorem1</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price">$46.80</span>
@@ -3227,7 +3184,7 @@
                                 <!-- single-product-wrap start -->
                                 <div class="single-product-wrap">
                                     <div class="product-image">
-                                        <a href="single-product.html">
+                                        <a href="single-product">
                                             <img src="/JT-Project-S/static/images/product/large-size/5.jpg"
                                                  alt="Li's Product Image">
                                         </a>
@@ -3249,7 +3206,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good
+                                            <h4><a class="product_name" href="single-product">Mug Today is a good
                                                 day</a></h4>
                                             <div class="price-box">
                                                 <span class="new-price new-price-2">$71.80</span>
